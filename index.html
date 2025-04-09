@@ -2,10 +2,16 @@
 <html>
 <head>
   <style>
-    .image {
-        width: 700px;
+    .image-container {
+        width: 500px;
         height: 400px;
-        object-fit: cover;
+        display: inline-block
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     button {
@@ -18,6 +24,7 @@
     .flex-container {
         display: flex;
         flex-direction: row;
+        align-items: center;
         margin-top: 20px;   
     }
 
