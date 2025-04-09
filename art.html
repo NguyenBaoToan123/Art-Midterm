@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image {
+        width: 700px;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    button {
+        background-color: aqua;
+        width: 70px;
+        height: 50px;
+        margin-left: 20px ;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;   
+    }
+
+    p {
+        margin-left: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="img-container">
+        <img class="image" src="images/images 1.jpg">
+    </div>
+    <div class="flex-container">
+        <button class="Author">Author</button>
+        <button class="Name">Name</button>
+        <button class="Year">Year</button>
+        <button class="All">All Info</button>
+        <button class="next">Next</button>
+        <p class="content"></p>
+    </div>
+    <script type = "module" src="main.js"></script>
+</body>
+</html>
