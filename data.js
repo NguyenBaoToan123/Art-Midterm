@@ -63,7 +63,7 @@ export const pics = [
       pic: "images 11.jpg",
       author: "Edgar Degas",
       name: "Before the Ballet",
-      year: "1890_1892"
+      year: "1890_1992"
     },
     {
       pic: "images 12.jpg",
